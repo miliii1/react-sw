@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body {
+	background-image: url('https://raw.githubusercontent.com/miliii1/react-sw/master/yoda/src/img/starwarsfondo.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* .div_content .Laser {
+	width: 250px;
+	transform: rotate(45deg);
+
+} */
