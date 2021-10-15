@@ -4,8 +4,8 @@ import './home.css';
 
 function Home() {
     return (
-        <div>
-           <Nav>
+        <div id='home-page'>
+           <Nav url='home' />
                <div className='content'>
                    <section>
                        <h1> Star Wars Yoda </h1>
@@ -13,7 +13,6 @@ function Home() {
                        <p>Aquí encontrará todo lo que necesita saber y volverte un Jedi.</p>
                    </section>
                </div>
-           </Nav>
         </div>
     )
 }
