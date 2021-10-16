@@ -14,12 +14,17 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: center;
+    color: #fcd000;
+    font-family: "Cairo",sans-serif;
+    font-weight: bold;
 }
 
 .content section h1 {
     font-family: 'Star Jedi', arial;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
+    color: white;
+    margin-top: -13px;
 }
 
 .content section {
@@ -27,7 +32,8 @@ body {
     text-align: center;
     background-color: rgba(37, 36, 34, 0.63);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     font-size: 18px;
     margin-top: 10px;
+    font-family: "Cairo",sans-serif;
 }
