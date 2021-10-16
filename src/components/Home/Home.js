@@ -23,11 +23,23 @@ function Home() {
                                <h1>Characters</h1>
                                <p>Aquí encontraras información acerca de todos los personajes de Star Wars.</p>
                                <Link to='/characters'>View More</Link>
+                               </div>
                            </div>
-                       </div>
-
+                           <div className='cards-stardetalles'>
+                           <div>
+                               <h1>Planets</h1>
+                               <p>Aquí encontraras información acerca de todos los planetas de Star Wars.</p>
+                               <Link to='/planets'>View More</Link>
+                               </div>
+                           </div>
+                           <div className='cards-stardetalles'>
+                           <div>
+                               <h1>StarShips</h1>
+                               <p>Aquí encontraras información acerca de todos los naves de Star Wars.</p>
+                               <Link to='/starships'>View More</Link>
+                               </div>
+                           </div>
                    </div>
-
                </div>
         </div>
     )
