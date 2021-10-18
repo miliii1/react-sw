@@ -47,7 +47,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -80px;
+    margin-left: 15px;
+    color: white;
+} 
+.content .stardetalles .cards-stardetalles div h1 {
+    color: rgb(237, 241, 0);
 } 
 
 .content .stardetalles .cards-stardetalles {
