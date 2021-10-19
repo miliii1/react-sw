@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Nav from '../../components/Nav/Nav';
-import './characters.css'
+import './characters.css';
 
 
 const Home = () => {
@@ -13,12 +13,13 @@ const Home = () => {
 
     useEffect(() => {
         axios.get(`https://swapi.dev/api/people/?page=${page}`).then(response => {
-            const cuentas = response.data.count
+            const contagem = response.data.count
             const personagens = response.data.results
 
-            setCountPersonagens(cuentas)
+            setCountPersonagens(contagem)
             setPersonagens(personagens)
 
+            // paginação
             response.data.next === null ?
                 document.getElementById('btnNext').style.display = 'none' :
                 document.getElementById('btnNext').style.display = 'block'
@@ -56,9 +57,11 @@ const Home = () => {
         const currentPage = page - 1
         setPage(currentPage)
     }
+
     return (
         <div id='main'>
             <Nav />
+
             <div className='count'>
                 <h1>TOTAL CHARACTERS: {countPersonagens}</h1>
             </div>
@@ -87,7 +90,7 @@ const Home = () => {
             <div className='navigation-page'>
                 <button id='btnPrevious' onClick={handlePreviousPage}>PREVIOUS PAGE</button>
 
-                <button id='btnNext' onClick={handleNextPage}>NEXT currentPage</button>
+                <button id='btnNext' onClick={handleNextPage}>NEXT PAGE</button>
             </div>
         </div>
     )

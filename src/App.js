@@ -7,7 +7,7 @@ import Ships from './components/StarShips/Ships'
 
 const App = () => {
     return (
-        <BrowserRouter basename='/star-wars-yoda'>
+        <BrowserRouter basename='/'>
             <Route path='/' exact component={Home} />
             <Route path='/characters' component={Characters} />
             <Route path='/planets' component={Planets} />
