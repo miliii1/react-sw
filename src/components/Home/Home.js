@@ -13,8 +13,8 @@ function Home() {
                <div className='content'>
                    <section>
                        <h1> La orden Estelar </h1>
-                       <p>El sitio web con más info sobre el universo de Star Wars.</p>
-                       <p>Aquí encontrará todo lo que necesita saber y volverte un Jedi.</p>
+                       <p>Si información de star wars quieres saber.</p>
+                       <p>Esta pagina web debes ver.</p>
                    </section>
 
                    <div className='stardetalles'>
