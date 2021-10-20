@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa'
-import Nav from '../../components/Nav/Nav'
-import './planets.css'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import Nav from '../../components/Nav/Nav';
+import './planets.css';
 
 
 const Planets = () => {
@@ -74,9 +73,9 @@ const Planets = () => {
             </div>
 
             <div className='navigation-page'>
-                <button id='btnPrevious' onClick={handlePreviousPage}><FaArrowCircleLeft />PREVIOUS PAGE</button>
+                <button id='btnPrevious' onClick={handlePreviousPage}>PREVIOUS PAGE</button>
 
-                <button id='btnNext' onClick={handleNextPage}>NEXT PAGE<FaArrowCircleRight /></button>
+                <button id='btnNext' onClick={handleNextPage}>NEXT PAGE</button>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@ const Home = () => {
             setCountPersonagens(contagem)
             setPersonagens(personagens)
 
-            // paginação
+            
             response.data.next === null ?
                 document.getElementById('btnNext').style.display = 'none' :
                 document.getElementById('btnNext').style.display = 'block'
@@ -34,16 +34,16 @@ const Home = () => {
     useEffect(() => {
         axios.get(`https://swapi.dev/api/species/?page=${page}`).then(response => {
             const especies = response.data.results
-            const nomeEspecies = especies.map(specie => specie.name)
-            setEspecies(nomeEspecies)
+            const nameEspecies = especies.map(specie => specie.name)
+            setEspecies(nameEspecies)
         })
     }, [page])
 
     useEffect(() => {
         axios.get(`https://swapi.dev/api/planets/?page=${page}`).then(response => {
             const planetas = response.data.results
-            const nomePlanetas = planetas.map(planeta => planeta.name)
-            setPlanetaNatal(nomePlanetas)
+            const namePlanetas = planetas.map(planeta => planeta.name)
+            setPlanetaNatal(namePlanetas)
 
         })
     }, [page])
