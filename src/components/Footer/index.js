@@ -7,7 +7,7 @@ function Footer() {
         <footer>
             <div className='fuente-api'>
                 <a href='' target='_blank' rel='noopener noreferrer'>
-                    <FaJediOrder /> <p>Star Was API</p>
+                    <FaJediOrder /><p>Star Was API</p>
                 </a>
             </div>
 

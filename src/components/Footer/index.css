@@ -5,6 +5,7 @@ footer {
     margin-top: 20px;
     font-family: 'Cairo', sans-serif;
     padding: 10px 0px;
+    font-weight: 200;
 }
 
 footer span {
@@ -26,6 +27,7 @@ footer .fuente-api a{
 footer .fuente-api a svg {
     margin-right: 5px;
     font-size: 20px;
+    margin-top: 13px;
 }
 
 footer .fuente-api a:hover {
