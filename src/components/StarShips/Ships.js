@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Nav from '../../components/Nav/Nav';
+import Footer from '../Footer';
 import './ships.css';
 
 
@@ -81,6 +82,7 @@ const Ships = () => {
 
                 <button id='btnNext' onClick={handleNextPage}>NEXT PAGE</button>
             </div>
+            <Footer />
         </div>
     )
 }

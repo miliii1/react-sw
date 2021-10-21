@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Nav from '../../components/Nav/Nav';
+import Footer from '../Footer';
 import './characters.css';
 
 
@@ -91,6 +92,7 @@ const Home = () => {
                 <button id='btnPrevious' onClick={handlePreviousPage}>PREVIOUS PAGE</button>
                 <button id='btnNext' onClick={handleNextPage}>NEXT PAGE</button>
             </div>
+            <Footer />
         </div>
     )
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
-import { FaArrowAltCircleRight } from 'react-icons/fa'
+import { FaArrowAltCircleRight } from 'react-icons/fa';
+import Footer from '../Footer';
 import personajes from '../../img/personajes.png';
 import naves from '../../img/naves.png';
 import planets from '../../img/planets.png';
@@ -43,6 +44,7 @@ function Home() {
                            </div>
                    </div>
                </div>
+               <Footer />
         </div>
     )
 }
