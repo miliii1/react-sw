@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
+import { FaArrowAltCircleRight } from 'react-icons/fa'
 import personajes from '../../img/personajes.png';
 import naves from '../../img/naves.png';
 import planets from '../../img/planets.png';
@@ -23,21 +24,21 @@ function Home() {
                            <div>
                                <h1>Characters</h1>
                                <p>Aquí encontraras información acerca de todos los personajes de Star Wars.</p>
-                               <Link to='/characters'>View More</Link>
+                               <Link to='/characters'>View More <FaArrowAltCircleRight /></Link>
                                </div>
                            </div>
                            <div className='cards-stardetalles'>
                            <div>
                                <h1>Planets</h1>
                                <p>Aquí encontraras información acerca de todos los planetas de Star Wars.</p>
-                               <Link to='/planets'>View More</Link>
+                               <Link to='/planets'>View More <FaArrowAltCircleRight /></Link>
                                </div>
                            </div>
                            <div className='cards-stardetalles'>
                            <div>
                                <h1>StarShips</h1>
                                <p>Aquí encontraras información acerca de todos los naves de Star Wars.</p>
-                               <Link to='/starships'>View More</Link>
+                               <Link to='/starships'>View More <FaArrowAltCircleRight /></Link>
                                </div>
                            </div>
                    </div>

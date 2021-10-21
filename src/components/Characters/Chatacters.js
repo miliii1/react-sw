@@ -89,7 +89,6 @@ const Home = () => {
             </div>
             <div className='navigation-page'>
                 <button id='btnPrevious' onClick={handlePreviousPage}>PREVIOUS PAGE</button>
-
                 <button id='btnNext' onClick={handleNextPage}>NEXT PAGE</button>
             </div>
         </div>

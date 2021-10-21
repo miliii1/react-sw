@@ -1,4 +1,4 @@
-.count h1 {
+/* .count h1 {
     color: white;
     margin-left: 13px;
 }
@@ -39,40 +39,16 @@
 #content .card-personajes span {
     margin-top: 10px;
 }
-.navigation-page {
-    display: flex;
-    justify-content: center;
-    margin-top: 1px;
-  }
-  
+.navigation-page button  {
+    margin-left: 13px;
+}
 .navigation-page button {
     font-size: 15px;
     color: #000;
-    background-color: #ffd23f;
+    background-color: #e7e416;
     border: none;
     width: 180px;
     padding: 8px;
-  }
-  
-.navigation-page #btnPrevious {
-    margin-right: 20px;
-    border-radius: 20px;
-  }
-  
-.navigation-page #btnNext {
-    margin-left: 20px;
-    border-radius: 20px;
-  }
-  
-.navigation-page #btnPrevious:hover {
-    
-  }
-  
-.navigation-page #btnNext:hover {
-    
-  }
-  
-.navigation-page button svg {
-    margin: -4px 5px;
-    font-size: 20px;
-  }
+    border-radius: 9px;
+    margin: -50px 0px 0px 585px;
+} */
