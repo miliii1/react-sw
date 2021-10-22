@@ -48,9 +48,9 @@
 .navigation-page button {
     font-size: 15px;
     color: #000;
-    background-color: #ffd23f;
+    background-color: #ffc400;
     border: none;
-    width: 180px;
+    width: 160px;
     padding: 8px;
   }
   
@@ -65,11 +65,15 @@
   }
   
 .navigation-page #btnPrevious:hover {
-    
+  cursor: pointer;
+  background-color: black;
+  color: #ffc400;
   }
   
 .navigation-page #btnNext:hover {
-    
+  cursor: pointer;
+  background-color: black;
+  color: #ffc400;
   }
   
 .navigation-page button svg {
