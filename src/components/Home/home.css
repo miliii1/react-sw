@@ -57,7 +57,7 @@ body {
 
 .content .stardetalles .cards-stardetalles {
     display: flex;
-    width: 25%;
+    width: 20%;
     /* border-radius: ; */
     padding: 25px;
     margin-bottom: 80px;
@@ -88,36 +88,5 @@ body {
 }
 .content .stardetalles .cards-stardetalles:hover {
     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
-section .section-timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.timeline .rs-timeline-item-custom-dot svg {
-    position: absolute;
-    background: #fff;
-    top: -5px;
-    left: -7px;
-    border: 2px solid #ddd;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding-top: 0px;
-    color: #000;
-    margin-left: -13px;
-  }
-
-  .timeline .rs-timeline-item-content {
-    margin-left: 24px;
-  }
- 

@@ -11,10 +11,10 @@ function Nav() {
                 <Link to='/'><img src={logo} alt='Logo Star Wars'></img></Link>
                 <ul>
                     <li><Link to='/' className='home'>HOME</Link></li>
+                    <li><Link to='/movies' className='naves'>MOVIES</Link></li>
                     <li><Link to='/characters' className='personagens'>CHARACTERS</Link></li>
                     <li><Link to='/planets' className='planetas'>PLANETS</Link></li>
                     <li><Link to='/starships' className='naves'>STARSHIPS</Link></li>
-                    <li><Link to='/movies' className='naves'>MOVIES</Link></li>
                 </ul>
             </nav>
         </header>
