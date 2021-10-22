@@ -23,7 +23,6 @@ const Movies = () => {
     return (
         <div id='main'>
             <Nav />
-
             <div className='count'>
                 <h1>TOTAL MOVIES: {countMovies}</h1>
             </div>

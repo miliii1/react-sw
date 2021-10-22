@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Nav from '../../components/Nav/Nav';
 import Footer from '../Footer';
+import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 import './ships.css';
 
 
@@ -78,9 +79,9 @@ const Ships = () => {
                 ))}
             </div>
             <div className='navigation-page'>
-                <button id='btnPrevious' onClick={handlePreviousPage}>PREVIOUS PAGE</button>
+                <button id='btnPrevious' onClick={handlePreviousPage}><FaAngleLeft />PREVIOUS PAGE</button>
 
-                <button id='btnNext' onClick={handleNextPage}>NEXT PAGE</button>
+                <button id='btnNext' onClick={handleNextPage}>NEXT PAGE<FaAngleRight /></button>
             </div>
             <Footer />
         </div>
