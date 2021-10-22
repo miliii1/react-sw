@@ -17,11 +17,6 @@ function Footer() {
                     <FaGithub />
                 </a>
             </div>
-            <div className='fuente-api'>
-                <a href='https://swapi.dev/' target='_blank' rel='noopener noreferrer'>
-                    <FaJediOrder /><p>Star Was API</p>
-                </a>
-            </div>
         </footer>
     )
 }

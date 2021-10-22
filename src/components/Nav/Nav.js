@@ -14,6 +14,7 @@ function Nav() {
                     <li><Link to='/characters' className='personagens'>CHARACTERS</Link></li>
                     <li><Link to='/planets' className='planetas'>PLANETS</Link></li>
                     <li><Link to='/starships' className='naves'>STARSHIPS</Link></li>
+                    <li><Link to='/movies' className='naves'>MOVIES</Link></li>
                 </ul>
             </nav>
         </header>
