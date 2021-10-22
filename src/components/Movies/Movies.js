@@ -3,7 +3,6 @@ import axios from 'axios';
 import Nav from '../../components/Nav/Nav';
 import Footer from '../Footer';
 import './movies.css';
-// https://swapi.dev/api/films/
 
 const Movies = () => {
     const [filmes, setFilmes] = useState([])
