@@ -16,4 +16,4 @@
 
 ###### Proyect pictures:
 
-![imagen](https://user-images.githubusercontent.com/80269896/138746046-1fd7aa42-5de5-4822-9e76-c2ad7ddef365.png)
+![imagen](https://user-images.githubusercontent.com/80269896/138749576-8dad3565-1fd0-4bfd-97e9-a6b6af9808e0.png)
