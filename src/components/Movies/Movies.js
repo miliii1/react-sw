@@ -7,7 +7,7 @@ import './movies.css';
 const Movies = () => {
     const [filmes, setFilmes] = useState([])
     const [countMovies, setCountMovies] = useState(0)
-    const [page, setPage] = useState(1)
+    const [page] = useState(1)
 
     useEffect(() => {
         axios.get(`https://swapi.dev/api/films/?page=${page}`).then(response => {
