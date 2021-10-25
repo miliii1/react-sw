@@ -1,17 +1,17 @@
 # Orden Estelar 
 
-<h3>Deployed App</h3>(https://orden-estelar.netlify.app/)
+[<h3>Deployed App</h3>](https://orden-estelar.netlify.app/)
 
 *Esta pagina web esta diseñado solo con React. Una pagina en donde se representan diferentes funcionalidades y consumido por una API, que en este caso con Star Wars https://swapi.dev/
 
 
 # Tecnologias utilizadas
 
--REACT
--REDUX
--CSS
--JAVASCRIPT
--HTML
+- REACT
+- REDUX
+- CSS
+- JAVASCRIPT
+- HTML
 
 
 ###### Proyect pictures:
