@@ -5,7 +5,7 @@
 *Esta pagina web esta diseñado solo con React. Una pagina en donde se representan diferentes funcionalidades y consumido por una API, que en este caso con Star Wars https://swapi.dev/
 
 
-# Tecnologias utilizadas
+# Tecnologías utilizadas
 
 - REACT
 - REDUX
